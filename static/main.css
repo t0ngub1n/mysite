@@ -1,0 +1,22 @@
+body {
+        font-family: 'PT Mono', monospace;
+        background-color: #29353b;
+        color: #b6b6b6;
+    }
+    input {
+        border: 1px solid #b6b6b6;
+        width: 80%;
+   }
+   input:focus {
+    border: 0.063em solid #b6b6b6;
+   }
+
+    .auth, input{
+        font-size: 12px;
+        width: fit-content;
+        font-family: 'PT Mono', monospace;
+        border-radius: 3px;
+        border: 1px dashed #b6b6b6;
+        color: #b6b6b6;
+        background-color: #29353b; margin: 5px; padding: 2px; padding-right: 7px; padding-left: 7px;
+    }
